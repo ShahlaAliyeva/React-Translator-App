@@ -2,4 +2,4 @@
 Now project has not a specific design, this is a demo version
 
 ## Live site link is below
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://react-translation-app.netlify.app/](https://react-translation-app.netlify.app/) to view live version in your browser.
