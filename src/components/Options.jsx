@@ -4,7 +4,7 @@ function Options({ languages, fromLang, toLang, setFromLang, setToLang }) {
   return (
     <div className="languages-side">
       <div className="selected-language from-lang">
-        <span>Language: ({fromLang})</span>
+       
         <select
           name="lang"
           id="lang"
@@ -25,7 +25,7 @@ function Options({ languages, fromLang, toLang, setFromLang, setToLang }) {
         </select>
       </div>
       <div className="selected-language to-lang">
-        <span>Language: ({toLang})</span>
+        
         <select
           name="lang"
           id="lang"
