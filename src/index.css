@@ -25,10 +25,6 @@
   justify-content: space-between;
 }
 
-.selected-language span {
-  margin: auto .8rem auto auto;
-}
-
 .selected-language select {
   border: none;
   cursor: pointer;
@@ -105,7 +101,7 @@ ion-icon[name='swap-horizontal-outline'] {
   .detail-side {
     width: 10%;
     height: 28.2rem;
-    margin-top: 4.5rem;
+    margin-top: 4.3rem;
   }
 
   .details {
@@ -133,32 +129,6 @@ ion-icon[name='swap-horizontal-outline'] {
 }
 
 @media (max-width: 490px) {
-  .phone-container {
-    width: 90%;
-    height: 30rem;
-  }
-
-  .detail-side {
-    width: 10%;
-    height: 28.2rem;
-    margin-top: 7.6rem;
-  }
-
-  .details {
-    padding: .6rem;
-  }
-
-  .selected-language {
-    display: flex;
-    width: 40%;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .selected-language span {
-    margin: 0 0 .5rem 0;
-  }
-
   .to-lang {
     justify-content: flex-end;
    }
