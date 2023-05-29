@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Input({ setInput, input }) {
   return (
     <textarea
-      name=""
+      name="input"
       id=""
       cols="30"
       rows="10"

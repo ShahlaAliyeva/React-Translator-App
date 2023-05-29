@@ -3,7 +3,7 @@ import React from "react";
 function Output({ output }) {
   return (
     <textarea
-      name=""
+      name="output"
       id=""
       cols="30"
       rows="10"

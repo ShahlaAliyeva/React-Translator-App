@@ -36,8 +36,6 @@ function Main() {
       .then((response) => response.json())
       .then((data) => {
         setOutput(data.matches[0].translation);
-        // console.log(data);
-        // console.log(`From language ${fromLang}, to Language is ${toLang}`);
       });
   };
 
@@ -54,9 +52,9 @@ function Main() {
 
     if (input && tempFromLang === toLang && tempToLang === fromLang) {
       translationUrl = `https://api.mymemory.translated.net/get?q=${output}&langpair=${tempFromLang}|${tempToLang}`;
-      //bura birde nezer yetir reski isledi tedsadufen
+     
       translate();
-      // console.log("Language from: ", fromLang, "to: ", toLang);
+      
     }
     setOutput("");
     console.log(output);
@@ -93,32 +91,3 @@ function Main() {
 }
 
 export default Main;
-
-/*
-const translate = () => {
-   // const params = new URLSearchParams();
-    // params.append("q", input);
-    // params.append("source", fromLang);
-    // params.append("target", toLang);
-    // params.append("api_key", "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx");
-
-    // const requestOptions = {
-    //   method: "POST",
-    //   body: params.toString(),
-    //   headers: {
-    //     accept: "application/json",
-    //     "Content-Type": "application/x-www-form-urlencoded"
-    //   },
-    // };
-
-    // console.log("RequestOptions: ", requestOptions);
-    // fetch("https://libretranslate.org/translate", requestOptions)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log("translated text: ", data.translatedText);
-    //     setOutput(data.translatedText);
-    //   });
-    // console.log("Button is called");
-
-}
- */
