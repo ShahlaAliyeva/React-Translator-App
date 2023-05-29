@@ -58,7 +58,7 @@ function PhoneStyle() {
   };
 
   return (
-    <div className="container">
+    
       <div className="phone-container">
         <Options
           languages={languages}
@@ -73,7 +73,7 @@ function PhoneStyle() {
         </div>
 
         <Button translate={translate}></Button>
-      </div>
+      
 
       <div className="detail-side">
       <Details
