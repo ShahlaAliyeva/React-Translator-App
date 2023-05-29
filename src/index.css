@@ -159,6 +159,10 @@ textarea[name='output'] {
 }
 
 @media (max-width: 725px) {
+  h1 {
+    margin: 1.5rem auto;
+  }
+
   .main {
     height: 75vh;
     margin-bottom: 7rem;
@@ -167,6 +171,7 @@ textarea[name='output'] {
   .container {
     width: 90%;
     flex-direction: row;
+    margin: 0 auto;
   }
 
   .translation-side {
@@ -175,13 +180,17 @@ textarea[name='output'] {
 
   .phone-container {
     width: 90%;
-    height: 30rem;
+    flex-direction: row;
+    margin: 0 auto;
+    position: relative;
   }
 
   .detail-side {
     width: 10%;
     height: 28.2rem;
-    margin-top: 4.3rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .details {
@@ -190,21 +199,32 @@ textarea[name='output'] {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem;
+    padding: 1rem;
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .4rem;
   }
 
   .to-side {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
-  ion-icon[name="copy-outline"] {
+  .details ion-icon[name="copy-outline"] {
     margin-left: 0;
     margin-top: 1rem;
   }
 
   ion-icon[name="swap-horizontal-outline"] {
     margin-left: 0;
+  }
+
+  .translateBtn {
+    padding: 9px 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid #C1C9CC;
+    border-left: 1px solid #C1C9CC;
+    border-bottom: 1px solid #C1C9CC;
   }
 }
 
