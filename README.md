@@ -1,5 +1,6 @@
 # Translation App in React 
-Now project has not a specific design, this is a demo version
 
-## Demo live preview link is below
+## Live preview link is below
 Open [https://react-translation-app.netlify.app/](https://react-translation-app.netlify.app/) to view live version in your browser.
+
+![Design preview for the Translator app](./Design/Desktop-view.png)
