@@ -178,6 +178,10 @@ textarea[name='output'] {
     flex-direction: column;
   }
 
+  textarea[name='input'] {
+    border-top-right-radius: .4rem;
+  }
+
   .phone-container {
     width: 90%;
     flex-direction: row;
@@ -221,7 +225,6 @@ textarea[name='output'] {
 
   .translateBtn {
     padding: 9px 0;
-    border-bottom-right-radius: 0;
     border-right: 1px solid #C1C9CC;
     border-left: 1px solid #C1C9CC;
     border-bottom: 1px solid #C1C9CC;
